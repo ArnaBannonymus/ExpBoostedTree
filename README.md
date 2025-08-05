@@ -100,8 +100,11 @@ explanations/global_shap.png
 explanations/global_perm.png
 
 explanations/local_shap.png
+
+## global_shap.png : 
 <img width="640" height="480" alt="global_shap" src="https://github.com/user-attachments/assets/2465a007-feda-4840-904b-5ecd93751aee" />
-![Uploading global_perm.png…]()
+## global_perm.png:
+<img width="640" height="480" alt="global_perm" src="https://github.com/user-attachments/assets/058d100a-ba4e-4500-8a35-33a8231f1906" />
 
 ### Notes
 Multi-output: If your regressor predicts multiple targets, you can pass output_index=<i> to plot_global/plot_local to select which output dimension to explain.
