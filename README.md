@@ -71,7 +71,8 @@ import plotly.io as pio
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_boston
-from explainboostedregg.boosted_explainer import BoostedRegressorExplainer
+from explainboostedregg.boosted_explainer import BoostedRegressorExplainer<img width="640" height="480" alt="global_perm" src="https://github.com/user-attachments/assets/e1927be6-0db8-4733-a468-884a3f54311c" />
+
 
 # Load data
 X, y = load_boston(return_X_y=True)
@@ -99,6 +100,8 @@ explanations/global_shap.png
 explanations/global_perm.png
 
 explanations/local_shap.png
+<img width="640" height="480" alt="global_shap" src="https://github.com/user-attachments/assets/2465a007-feda-4840-904b-5ecd93751aee" />
+![Uploading global_perm.png…]()
 
 ### Notes
 Multi-output: If your regressor predicts multiple targets, you can pass output_index=<i> to plot_global/plot_local to select which output dimension to explain.
