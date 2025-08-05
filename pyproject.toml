@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=60.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explainboostedregg"
+version = "0.1.0"
+description = "Advanced explainers for tree-based regressors"
+authors = [{ name="Your Name", email="you@example.com" }]
+license = { file="LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy>=1.20",
+  "scikit-learn>=1.0",
+  "matplotlib>=3.4",
+  "pandas>=1.3",
+  "shap>=0.40",
+  "plotly"
+]
+
+[project.scripts]
+explainboostedregg = "cli:main"
